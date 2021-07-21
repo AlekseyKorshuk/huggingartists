@@ -55,6 +55,8 @@ LANGUAGE
 
 ## How to use
 
+How to load this dataset directly with the datasets library:
+
 ```python
 from datasets import load_dataset
 
