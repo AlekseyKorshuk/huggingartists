@@ -45,7 +45,9 @@ tags:
         <div style="display:DISPLAY_1; margin-left: auto; margin-right: auto; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE&#39;)">
         </div>
     </div>
-    <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
+    <a href="https://huggingface.co/huggingartists/USER_HANDLE">
+      <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 HuggingArtist Model 🤖</div>
+    </a>
     <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
     <a href="https://genius.com/artists/USER_HANDLE">
     	<div style="text-align: center; font-size: 14px;">@USER_HANDLE</div>
@@ -55,6 +57,7 @@ tags:
 ### Dataset Summary
 
  The Lyrics dataset parsed from Genius. This dataset is designed to generate lyrics with HuggingArtists.
+ Model is available [here](https://huggingface.co/huggingartists/USER_HANDLE).
 
 ### Supported Tasks and Leaderboards
 
