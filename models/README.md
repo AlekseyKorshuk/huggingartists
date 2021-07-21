@@ -1,5 +1,7 @@
 ---
 language: en
+datasets:
+- huggingartists/USER_HANDLE
 tags:
 - huggingartists
 - lyrics
