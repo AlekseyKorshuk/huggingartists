@@ -38,7 +38,8 @@ To understand how the model was developed, check the [W&B report](https://wandb.
 
 The model was trained on lyrics from USER_NAME.
 
-Dataset is available [here](https://huggingface.co/datasets/huggingartists/USER_HANDLE). And can be used with:
+Dataset is available [here](https://huggingface.co/datasets/huggingartists/USER_HANDLE).
+And can be used with:
 
 ```python
 from datasets import load_dataset
@@ -60,7 +61,7 @@ model = AutoModelWithLMHead.from_pretrained("huggingartists/USER_HANDLE")
 
 ## Training procedure
 
-The model is based on a pre-trained [GPT-2](https://huggingface.co/gpt2) which is fine-tuned on @USER_HANDLE's tweets.
+The model is based on a pre-trained [GPT-2](https://huggingface.co/gpt2) which is fine-tuned on USER_NAME's lyrics.
 
 Hyperparameters and metrics are recorded in the [W&B training run](WANDB_TRAIN) for full transparency and reproducibility.
 
@@ -87,7 +88,7 @@ In addition, the data present in the user's tweets further affects the text gene
 
 *Built by Aleksey Korshuk*
 
-[![Follow](https://img.shields.io/twitter/follow/borisdayma?style=social)](https://twitter.com/intent/follow?screen_name=borisdayma)
+[![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)
 
 For more details, visit the project repository.
 
