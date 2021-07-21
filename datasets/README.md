@@ -42,7 +42,7 @@ tags:
 
  <div class="inline-flex flex-col" style="line-height: 1.5;">
     <div class="flex">
-        <div style="display:DISPLAY_1; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE&#39;)">
+        <div style="display:DISPLAY_1; margin-left: auto; margin-right: auto; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE&#39;)">
         </div>
     </div>
     <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
