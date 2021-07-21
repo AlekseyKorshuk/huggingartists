@@ -37,12 +37,23 @@ tags:
 - **Repository:** [https://github.com/AlekseyKorshuk/huggingartists](https://github.com/AlekseyKorshuk/huggingartists)
 - **Paper:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 - **Point of Contact:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
-<!-- - **Size of downloaded dataset files:** 373.28 MB
-- **Size of the generated dataset:** 1072.25 MB
-- **Total amount of disk used:** 1445.53 MB -->
+- **Size of the generated dataset:** SIZE MB
 
 ### Dataset Summary
- 
+
+ <div class="inline-flex flex-col" style="line-height: 1.5;">
+    <div class="flex">
+        <div
+			style="display:DISPLAY_1; margin-left: 4px; margin-right: 4px; width: 92px; height:92px; border-radius: 50%; background-size: cover; background-image: url(&#39;USER_PROFILE&#39;)">
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
+    <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
+    <a href="https://genius.com/artists/USER_HANDLE">
+    	<div style="text-align: center; font-size: 14px;">@USER_HANDLE</div>
+    </a>
+</div>
+
  The Lyrics dataset parsed from Genius. This dataset is designed to generate lyrics with HuggingArtists.
 
 ### Supported Tasks and Leaderboards
@@ -64,11 +75,6 @@ dataset = load_dataset("huggingartists/USER_HANDLE")
 ```
 
 ## Dataset Structure
-
-
-<!-- - **Size of downloaded dataset files:** 183.09 MB
-- **Size of the generated dataset:** 523.97 MB
-- **Total amount of disk used:** 707.06 MB -->
 
 An example of 'train' looks as follows.
 ```
