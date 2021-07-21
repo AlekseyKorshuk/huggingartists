@@ -2,7 +2,8 @@
 language: en
 thumbnail: SOCIAL_LINK
 tags:
-- huggingtweets
+- huggingartists
+- lyrics
 widget:
 - text: "I am"
 ---
