@@ -1,7 +1,9 @@
 ---
 languages:
-- en
-paperswithcode_id: wikitext-2
+- LANGUAGE
+tags:
+- huggingartists
+- lyrics
 ---
 
 # Dataset Card for "huggingartists/USER_HANDLE"
@@ -35,14 +37,13 @@ paperswithcode_id: wikitext-2
 - **Repository:** [https://github.com/AlekseyKorshuk/huggingartists](https://github.com/AlekseyKorshuk/huggingartists)
 - **Paper:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 - **Point of Contact:** [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
-- **Size of downloaded dataset files:** 373.28 MB
+<!-- - **Size of downloaded dataset files:** 373.28 MB
 - **Size of the generated dataset:** 1072.25 MB
-- **Total amount of disk used:** 1445.53 MB
+- **Total amount of disk used:** 1445.53 MB -->
 
 ### Dataset Summary
-
- The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified
- Good and Featured articles on Wikipedia. The dataset is available under the Creative Commons Attribution-ShareAlike License.
+ 
+ The Lyrics dataset parsed from Genius. This dataset is designed to generate lyrics with HuggingArtists.
 
 ### Supported Tasks and Leaderboards
 
@@ -50,8 +51,7 @@ paperswithcode_id: wikitext-2
 
 ### Languages
 
-LANGUAGES
-[More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
+LANGUAGE
 
 ## How to use
 
@@ -64,9 +64,9 @@ dataset = load_dataset("huggingartists/USER_HANDLE")
 ## Dataset Structure
 
 
-- **Size of downloaded dataset files:** 183.09 MB
+<!-- - **Size of downloaded dataset files:** 183.09 MB
 - **Size of the generated dataset:** 523.97 MB
-- **Total amount of disk used:** 707.06 MB
+- **Total amount of disk used:** 707.06 MB -->
 
 An example of 'train' looks as follows.
 ```
@@ -93,9 +93,24 @@ The data fields are the same among all splits.
 'Train' can be easily divided into 'train' & 'validation' & 'test' with few lines of code:
 
 ```python
-from datasets import load_dataset
+from datasets import load_dataset, Dataset, DatasetDict
+import numpy as np
 
-dataset = load_dataset("huggingartists/USER_HANDLE")
+datasets = load_dataset("huggingartists/USER_HANDLE")
+
+train_percentage = 0.9
+validation_percentage = 0.07
+test_percentage = 0.03
+
+train, validation, test = np.split(datasets['train']['text'], [int(len(datasets['train']['text'])*train_percentage), int(len(datasets['train']['text'])*(train_percentage + validation_percentage))])
+
+datasets = DatasetDict(
+    {
+        'train': Dataset.from_dict({'text': list(train)}),
+        'validation': Dataset.from_dict({'text': list(validation)}),
+        'test': Dataset.from_dict({'text': list(test)})
+    }
+)
 ```
 
 ## Dataset Creation
@@ -157,7 +172,6 @@ dataset = load_dataset("huggingartists/USER_HANDLE")
 ```
 @InProceedings{huggingartists,
     author={Aleksey Korshuk}
-    year=2021
+    year=YEAR
 }
-
 ```
