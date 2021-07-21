@@ -4,15 +4,15 @@ languages:
 paperswithcode_id: wikitext-2
 ---
 
-# Dataset Card for "huggingartists"
+# Dataset Card for "huggingartists/USER_HANDLE"
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
   - [Dataset Summary](#dataset-summary)
   - [Supported Tasks and Leaderboards](#supported-tasks-and-leaderboards)
   - [Languages](#languages)
+- [How to use](#how-to-use)
 - [Dataset Structure](#dataset-structure)
-  - [Data Instances](#data-instances)
   - [Data Fields](#data-fields)
   - [Data Splits](#data-splits)
 - [Dataset Creation](#dataset-creation)
@@ -53,6 +53,14 @@ paperswithcode_id: wikitext-2
 LANGUAGES
 [More Information Needed](https://github.com/huggingface/datasets/blob/master/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)
 
+## How to use
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("huggingartists/USER_HANDLE")
+```
+
 ## Dataset Structure
 
 
@@ -78,12 +86,17 @@ The data fields are the same among all splits.
 
 ### Data Splits
 
-|       name        | train |validation|test|
-|-------------------|------:|---------:|---:|
-|wikitext-103-raw-v1|1801350|      3760|4358|
-|wikitext-103-v1    |1801350|      3760|4358|
-|wikitext-2-raw-v1  |  36718|      3760|4358|
-|wikitext-2-v1      |  36718|      3760|4358|
+| train |validation|test|
+|------:|---------:|---:|
+|TRAIN_SIZE|         -|   -|
+
+'Train' can be easily divided into 'train' & 'validation' & 'test' with few lines of code:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("huggingartists/USER_HANDLE")
+```
 
 ## Dataset Creation
 
