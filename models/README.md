@@ -20,8 +20,12 @@ widget:
         </div>
     </div>
     <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
+    
     <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
-    <div style="text-align: center; font-size: 14px;">@USER_HANDLE</div>
+    
+    <a href="https://genius.com/artists/USER_HANDLE">
+    	<div style="text-align: center; font-size: 14px;">@USER_HANDLE</div>
+    </a>
 </div>
 
 I was made with [huggingartists](https://github.com/AlekseyKorshuk/huggingartists).
