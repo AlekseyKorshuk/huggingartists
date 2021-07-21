@@ -20,9 +20,7 @@ widget:
         </div>
     </div>
     <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 AI BOT 🤖</div>
-    
     <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
-    
     <a href="https://genius.com/artists/USER_HANDLE">
     	<div style="text-align: center; font-size: 14px;">@USER_HANDLE</div>
     </a>
@@ -30,7 +28,7 @@ widget:
 
 I was made with [huggingartists](https://github.com/AlekseyKorshuk/huggingartists).
 
-Create your own bot based on your favorite user with [the demo](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)!
+Create your own bot based on your favorite artist with [the demo](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)!
 
 ## How does it work?
 
@@ -50,6 +48,14 @@ The model was trained on tweets from USER_NAME.
 | Retweets | RETWEETS |
 | Short tweets | SHORT_TWEETS |
 | Tweets kept | TWEETS_KEPT |
+
+Dataset is available [here](https://huggingface.co/datasets/huggingartists/USER_HANDLE). And can be used with:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("huggingartists/USER_HANDLE")
+```
 
 [Explore the data](WANDB_PREPROCESS/artifacts), which is tracked with [W&B artifacts](https://docs.wandb.com/artifacts) at every step of the pipeline.
 
@@ -87,4 +93,3 @@ In addition, the data present in the user's tweets further affects the text gene
 For more details, visit the project repository.
 
 [![GitHub stars](https://img.shields.io/github/stars/AlekseyKorshuk/huggingartists?style=social)](https://github.com/AlekseyKorshuk/huggingartists)
-{"mode":"full","isActive":false}
