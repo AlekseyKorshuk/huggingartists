@@ -1,6 +1,5 @@
 ---
 language: en
-thumbnail: SOCIAL_LINK
 tags:
 - huggingartists
 - lyrics
@@ -41,14 +40,7 @@ To understand how the model was developed, check the [W&B report](https://wandb.
 
 ## Training data
 
-The model was trained on tweets from USER_NAME.
-
-| Data | TABLE_USER |
-| --- | TABLE_SPLIT |
-| Tweets downloaded | TWEETS_DL |
-| Retweets | RETWEETS |
-| Short tweets | SHORT_TWEETS |
-| Tweets kept | TWEETS_KEPT |
+The model was trained on lyrics from USER_NAME.
 
 Dataset is available [here](https://huggingface.co/datasets/huggingartists/USER_HANDLE). And can be used with:
 
@@ -56,6 +48,16 @@ Dataset is available [here](https://huggingface.co/datasets/huggingartists/USER_
 from datasets import load_dataset
 
 dataset = load_dataset("huggingartists/USER_HANDLE")
+```
+
+Or with Transformers library:
+
+```python
+from transformers import AutoTokenizer, AutoModelWithLMHead
+  
+tokenizer = AutoTokenizer.from_pretrained("huggingartists/USER_HANDLE")
+
+model = AutoModelWithLMHead.from_pretrained("huggingartists/USER_HANDLE")
 ```
 
 [Explore the data](WANDB_PREPROCESS/artifacts), which is tracked with [W&B artifacts](https://docs.wandb.com/artifacts) at every step of the pipeline.
