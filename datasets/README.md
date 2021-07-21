@@ -46,7 +46,7 @@ tags:
         </div>
     </div>
     <a href="https://huggingface.co/huggingartists/USER_HANDLE">
-      <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 HuggingArtist Model 🤖</div>
+      <div style="text-align: center; margin-top: 3px; font-size: 16px; font-weight: 800">🤖 HuggingArtists Model 🤖</div>
     </a>
     <div style="text-align: center; font-size: 16px; font-weight: 800">USER_NAME</div>
     <a href="https://genius.com/artists/USER_HANDLE">
