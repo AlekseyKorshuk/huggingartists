@@ -28,11 +28,7 @@ Create your own bot based on your favorite artist with [the demo](https://colab.
 
 ## How does it work?
 
-The model uses the following pipeline.
-
-![pipeline](https://github.com/borisdayma/huggingtweets/blob/master/img/pipeline.png?raw=true)
-
-To understand how the model was developed, check the [W&B report](https://wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-Model-to-Generate-Tweets--VmlldzoxMTY5MjI).
+To understand how the model was developed, check the [W&B report](https://wandb.ai/huggingartists/huggingartists/reportlist).
 
 ## Training data
 
