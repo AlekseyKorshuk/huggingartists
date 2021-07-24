@@ -2,18 +2,7 @@ import argparse
 import asyncio
 import aiohttp
 
-import sys
-
-try:
-  import google.colab
-  IN_COLAB = True
-except:
-  IN_COLAB = False
-
-if IN_COLAB:
-    from tqdm.notebook import tqdm as bar
-else:
-    from tqdm import tqdm as bar
+from tqdm import tqdm as bar
 
 from bs4 import BeautifulSoup
 from concurrent.futures import ProcessPoolExecutor
