@@ -3,11 +3,16 @@ import asyncio
 import aiohttp
 
 import sys
-if 'google.colab' in sys.modules:
-    print(1)
+
+try:
+  import google.colab
+  IN_COLAB = True
+except:
+  IN_COLAB = False
+
+if IN_COLAB:
     from tqdm.notebook import tqdm as bar
 else:
-    print(2)
     from tqdm import tqdm as bar
 
 from bs4 import BeautifulSoup
