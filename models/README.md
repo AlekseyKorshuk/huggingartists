@@ -84,7 +84,7 @@ In addition, the data present in the user's tweets further affects the text gene
 
 *Built by Aleksey Korshuk*
 
-[![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)
+[![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)](https://github.com/AlekseyKorshuk)
 
 For more details, visit the project repository.
 
