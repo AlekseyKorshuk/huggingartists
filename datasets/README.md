@@ -30,6 +30,7 @@ tags:
   - [Dataset Curators](#dataset-curators)
   - [Licensing Information](#licensing-information)
   - [Citation Information](#citation-information)
+- [About](#about)
 
 ## Dataset Description
 
@@ -186,3 +187,12 @@ datasets = DatasetDict(
     year=YEAR
 }
 ```
+
+## About
+*Built by Aleksey Korshuk*
+
+[![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)](https://github.com/AlekseyKorshuk)
+
+For more details, visit the project repository.
+
+[![GitHub stars](https://img.shields.io/github/stars/AlekseyKorshuk/huggingartists?style=social)](https://github.com/AlekseyKorshuk/huggingartists)
