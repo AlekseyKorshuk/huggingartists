@@ -1,9 +1,14 @@
 # HuggingArtists - Train a model to generate lyrics
 
 
+### Check existing:
+* [Models](https://huggingface.co/models?filter=huggingartists)
+* [Datasets](https://huggingface.co/datasets?filter=huggingartists)
+
+
 ## Features:
 * Generate lyrics by a specific artist
-* Upload models and datasets here after each each run
+* Automatically upload models and datasets to [HuggingFace Profile](https://huggingface.co/huggingartists) after each each run
 * Parse dataset once and use it next time without spending time
 * Each next run by any person will resume training from checkpoint
 * Training and results are automatically logged into [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface)
