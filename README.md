@@ -1,5 +1,6 @@
 # HuggingArtists - Train a model to generate lyrics
 
+<img src="img/logo.jpg" width="420" align="center">
 
 ### Check existing:
 * [Models](https://huggingface.co/models?filter=huggingartists)
