@@ -61,6 +61,9 @@ def process_page(html):
     lyrics = str(lyrics).replace("\n\n", "\n")
     lyrics = str(lyrics).replace("\n\n", "\n")
     lyrics = re.sub(' +', ' ', lyrics)
+    lyrics = str(lyrics).replace('"', "")
+    # lyrics = str(lyrics).replace("'", "")
+    lyrics = str(lyrics).replace("*", "")
     return lyrics
 
 
