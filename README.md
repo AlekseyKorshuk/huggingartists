@@ -2,7 +2,7 @@
 
 <img src="img/logo.jpg" width="420" align="center">
 
-_Disclaimer: this project is not to be used to publish any false generated information but to perform research on Natural Language Generation._
+_Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation._
 
 ## How to use
 
