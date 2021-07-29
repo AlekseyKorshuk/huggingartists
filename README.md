@@ -81,7 +81,7 @@ Cause I know
 
 [![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)](https://github.com/AlekseyKorshuk)
 
-🚀 If you want to contribute to this project OR create something cool together, contact me: [link](https://github.com/AlekseyKorshuk)
+🚀 If you want to contribute to this project OR create something cool together — contact me: [link](https://github.com/AlekseyKorshuk)
 
 Star this repository:
 
