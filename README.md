@@ -87,8 +87,6 @@ Star this repository:
 
 [![GitHub stars](https://img.shields.io/github/stars/AlekseyKorshuk/huggingartists?style=social)](https://github.com/AlekseyKorshuk/huggingartists)
 
-**Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation.**
-
 ## Resources
 * Inspired by [HuggingTweets](https://github.com/borisdayma/huggingtweets)
 * [Explore the W&B report](https://wandb.ai/huggingartists/huggingartists/reportlist) to understand how the model works
