@@ -39,27 +39,40 @@ When I finally get out
 And I get pissed off
 Ill be right back at ya with the first one on the floor
 But I aint ever gonna get the respect youve been getting
-And Im a nutter
+And Im a nutter...
 ~~~
+~~~
+I am bipolar while I’m rhyming, bipolar while I am hate
+When I’m rhyming, I may seem a little bit crazy
+But the thing’s with these rhymes that I pick
+I stick to the syllable ç unless it’s on a syllable
+Bread is full of charmin I am thinkin all of the garbage
+Hear the bass line and ya hear the bass line
+But hip hop is what makes’em songs
+I try to describe how I’m gettin’ em all, but I’m lazy
+When I’m rapin on a song, I’m just making it
+If I don’t got the right, In my mind...
+~~~
+
 
 #### Drake:
 ~~~
-I am what they say I am
-In a barroom brawlin
-Youre never gonna get me up like Jada Pinkett
-So this what they call me
-Livin a fight while Im sippin on Hennessy
-My name is Kala Brown, I need a new name
-Cause I dont live a bitch
-Dont play the same shit I did before
-I dont lie and nobody wanna know
-I got a little group on my shoulders to save
-I want to be a man but I gotta do a lot of things to get me there
-So get over yourself, get over yourselves
-Its like you and I dont care how we do it
-But youll get there when you get there
-Cause it feels good to be me
-Cause I know
+I am never livin the life that I never lived
+I walk around with my Glock 9
+And lay down with my feet up
+This is my house, bitch
+Welcome to Detroit, this is my city
+Ive made it all my people proud
+I even sold my house down
+To get a possible placement as a burnt pit
+My little girl, she should ntroller
+Wanna flip sometimes on the upside
+But its hard to hold a grudge, I dont bite
+I say my wholehearted, prayer is my heart
+I pray for you when Im gone, but I gotta leave you in peace
+That we did not plan to be seeing each other, well
+We did plan to be seeing each other, well
+And if you ever need anything, I...
 ~~~
 
 ## Check existing:
