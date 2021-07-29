@@ -42,25 +42,22 @@ And Im a nutter
 
 #### Drake:
 ~~~
-My dream is just another night, I have to sleep
-Like I say
-I say, I know you dont love me if you've been waiting
-Just say
-Hey, what we have is not an answer
-Yeah... just talk
-I say
-Yeah... Ima get it
-I go crazy
-I know we gonna be here next, yeah...
-Got my body back
-Lights on the ceiling
-Hangin in my room, I want somebody to put me right there
-And I couldnt go wrong
-No... I know, I know, yeah...
-I dont wanna die, but...
-I just wanna be here, I need somebody to put me right there
-And I couldnt go wrong
-No... I cant ever go wrong, I cant never
+I am what they say I am
+In a barroom brawlin
+Youre never gonna get me up like Jada Pinkett
+So this what they call me
+Livin a fight while Im sippin on Hennessy
+My name is Kala Brown, I need a new name
+Cause I dont live a bitch
+Dont play the same shit I did before
+I dont lie and nobody wanna know
+I got a little group on my shoulders to save
+I want to be a man but I gotta do a lot of things to get me there
+So get over yourself, get over yourselves
+Its like you and I dont care how we do it
+But youll get there when you get there
+Cause it feels good to be me
+Cause I know
 ~~~
 
 ## Check existing:
