@@ -4,6 +4,8 @@
 
 <img src="img/logo.jpg" width="420" align="center">
 
+### [🚀 Run the demo](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)
+
 _Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation._
 
 ## How to use
