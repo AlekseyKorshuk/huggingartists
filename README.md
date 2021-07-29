@@ -1,5 +1,7 @@
 # HuggingArtists - Train a model to generate lyrics
 
+## Create AI-Artist in just 5 minutes!
+
 <img src="img/logo.jpg" width="420" align="center">
 
 _Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation._
@@ -61,10 +63,9 @@ And I couldnt go wrong
 No... I cant ever go wrong, I cant never
 ~~~
 
-### Check existing:
+## Check existing:
 * [Models](https://huggingface.co/models?filter=huggingartists)
 * [Datasets](https://huggingface.co/datasets?filter=huggingartists)
-
 
 
 ## Features:
@@ -81,6 +82,18 @@ No... I cant ever go wrong, I cant never
 
 [![Follow](https://img.shields.io/github/followers/AlekseyKorshuk?style=social)](https://github.com/AlekseyKorshuk)
 
-For more details, visit the project repository.
+🚀 If you want to contribute to this project OR create something cool, contact me: [link](https://github.com/AlekseyKorshuk)
+
+Star this repository:
 
 [![GitHub stars](https://img.shields.io/github/stars/AlekseyKorshuk/huggingartists?style=social)](https://github.com/AlekseyKorshuk/huggingartists)
+
+**Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation.**
+
+## Resources
+* Inspired by [HuggingTweets](https://github.com/borisdayma/huggingtweets)
+* [Explore the W&B report](https://wandb.ai/huggingartists/huggingartists/reportlist) to understand how the model works
+* [HuggingFace and W&B integration documentation](https://docs.wandb.com/library/integrations/huggingface)
+
+## Got questions about W&B?
+If you have any questions about using W&B to track your model performance and predictions, please reach out to the [slack community](https://wb-forum.slack.com/signup#/).
