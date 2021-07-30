@@ -5,6 +5,8 @@ datasets:
 tags:
 - huggingartists
 - lyrics
+- lm-head
+- causal-lm
 widget:
 - text: "I am"
 ---
