@@ -77,7 +77,7 @@ And if you ever need anything, I...
 
 ## Check existing:
 * [Models](https://huggingface.co/models?filter=huggingartists)
-* [Datasets](https://huggingface.co/datasets?filter=huggingartists)
+* [Datasets](https://huggingface.co/datasets?search=huggingartists)
 
 
 ## Features:
