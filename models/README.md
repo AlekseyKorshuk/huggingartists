@@ -45,16 +45,6 @@ from datasets import load_dataset
 dataset = load_dataset("huggingartists/USER_HANDLE")
 ```
 
-Or with Transformers library:
-
-```python
-from transformers import AutoTokenizer, AutoModelWithLMHead
-  
-tokenizer = AutoTokenizer.from_pretrained("huggingartists/USER_HANDLE")
-
-model = AutoModelWithLMHead.from_pretrained("huggingartists/USER_HANDLE")
-```
-
 [Explore the data](WANDB_PREPROCESS/artifacts), which is tracked with [W&B artifacts](https://docs.wandb.com/artifacts) at every step of the pipeline.
 
 ## Training procedure
@@ -74,6 +64,16 @@ from transformers import pipeline
 generator = pipeline('text-generation',
                      model='huggingartists/USER_HANDLE')
 generator("I am", num_return_sequences=5)
+```
+
+Or with Transformers library:
+
+```python
+from transformers import AutoTokenizer, AutoModelWithLMHead
+  
+tokenizer = AutoTokenizer.from_pretrained("huggingartists/USER_HANDLE")
+
+model = AutoModelWithLMHead.from_pretrained("huggingartists/USER_HANDLE")
 ```
 
 ## Limitations and bias
