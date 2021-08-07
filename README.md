@@ -82,9 +82,9 @@ And if you ever need anything, I...
 
 ## Features:
 * Generate lyrics by a specific artist
-* Automatically upload models and datasets to [HuggingFace Profile](https://huggingface.co/huggingartists) after each each run
+* Automatically upload models and datasets to [HuggingFace Profile](https://huggingface.co/huggingartists) after each run
 * Parse dataset once and use it next time without spending time
-* Each next run by any person will resume training from checkpoint
+* Each next run by any person will resume training from last checkpoint
 * Training and results are automatically logged into [W&B](https://docs.wandb.com) through the [HuggingFace integration](https://docs.wandb.com/huggingface)
 
 
