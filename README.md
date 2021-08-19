@@ -4,13 +4,18 @@
 
 <img src="img/logo.jpg" width="420" align="center">
 
-### [🚀 Run the demo](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)
+### [🚀 Run the demo notebook to train](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)
+### [🚀 Run the GUI demo to test](https://huggingface.co/spaces/AlekseyKorshuk/huggingartists)
 
 _Disclaimer: this project is not to be used to publish any false generated information or unpleasant words but to perform research on Natural Language Generation._
 
 ## How to use
 
-To test the demo, click on below link and share your results!
+Just to generate without training, use [Spaces with Streamlit](https://huggingface.co/spaces/AlekseyKorshuk/huggingartists).
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/AlekseyKorshuk/huggingartists)
+
+To train with the demo, click on below link and share your results!
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlekseyKorshuk/huggingartists/blob/master/huggingartists-demo.ipynb)
 
