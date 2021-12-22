@@ -12,8 +12,8 @@ _Disclaimer: this project is not to be used to publish any false generated infor
 ## How to use
 
 Just to generate without training, use [Spaces with Streamlit](https://huggingface.co/spaces/AlekseyKorshuk/huggingartists).
-
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/AlekseyKorshuk/huggingartists)
+<img src="img/spaces-demo.png" width="840" align="center" href="https://huggingface.co/spaces/AlekseyKorshuk/huggingartists">
 
 To train with the demo, click on below link and share your results!
 
